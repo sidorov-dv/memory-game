@@ -1,0 +1,42 @@
+.Game {
+  position: relative;
+  margin: 0 auto;
+  padding: 5px;
+  max-width: 80%;
+}
+
+@media all and (max-width: 850px) {
+  .Game {
+    max-width: 90%;
+  }
+}
+
+@media all and (min-width: 1300px) {
+  .Game {
+    max-width: 60%;
+  }
+}
+
+@media all and (min-width: 1600px) {
+  .Game {
+    max-width: 50%;
+  }
+}
+
+.name {
+  color: #70be5b;
+  letter-spacing: 5px;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 3rem;
+  text-shadow: 5px 5px 5px rgba(112, 190, 91, 0.3);
+}
+
+.turns_count {
+  color: #fdf100;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}

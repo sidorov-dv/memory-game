@@ -1,0 +1,7 @@
+.field {
+  padding: 15px;
+  background-color: #68bbe5;
+  border: 3px solid #e2008a;
+  border-radius: 20px;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+}

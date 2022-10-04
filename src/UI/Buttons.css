@@ -1,0 +1,82 @@
+.box_btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn_newGame {
+  margin: 15px 10px;
+  padding: 5px;
+  max-width: 175px;
+  height: 40px;
+  border: 2px solid #e2008a;
+  outline: none;
+  color: #4e53a5;
+  background-color: #68bbe5;
+  font-size: 1.3rem;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.btn_newGame:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #4e53a5,
+    #e2008a,
+    #68bbe5,
+    #70be5b,
+    #fdf100
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 10s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.btn_newGame:active {
+  color: #e2008a;
+}
+
+.btn_newGame:active:after {
+  background: transparent;
+}
+
+.btn_newGame:hover:before {
+  opacity: 1;
+}
+
+.btn_newGame:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #68bbe5;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}

@@ -1,0 +1,48 @@
+.header {
+  color: #4e53a5;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.box_stat {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item_stat {
+  margin: 0 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item_stat h3,
+.item_stat p {
+  color: #4e53a5;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.btn_closeModal {
+  display: block;
+  background-color: #68bbe5;
+  color: #e2008a;
+  margin: 0 auto;
+  padding: 5px 10px;
+  height: 40px;
+  border: 2px solid #e2008a;
+  border-radius: 10px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.btn_closeModal:hover {
+  background-color: #e2008a;
+  color: #68bbe5;
+}
