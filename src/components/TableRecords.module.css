@@ -1,3 +1,7 @@
+.no_results {
+  min-height: 200px;
+}
+
 .header {
   color: #4e53a5;
   text-align: center;

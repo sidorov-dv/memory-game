@@ -10,13 +10,15 @@ const TableRecords = ({ results, onClose }) => {
     )
   ) {
     return (
-      <h2 className={cl.header} style={{ color: "#fdf100" }}>
-        There are no results for the current game yet
-      </h2>
+      <div className={cl.no_results}>
+        <h2 className={cl.header} style={{ color: "#fdf100" }}>
+          There are no results for the current game yet
+        </h2>
+      </div>
     );
   }
   return (
-    <div>
+    <>
       <h2 className={cl.header}>Best three results for each game type</h2>
       <div className={cl.box_stat}>
         <div className={cl.item_stat}>
@@ -47,7 +49,7 @@ const TableRecords = ({ results, onClose }) => {
       <button className={cl.btn_closeModal} onClick={onClose}>
         Close
       </button>
-    </div>
+    </>
   );
 };
 

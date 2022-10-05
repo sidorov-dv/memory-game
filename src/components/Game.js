@@ -170,7 +170,7 @@ const Game = () => {
           <TableRecords results={tableResults} onClose={hideModal} />
         </Modal>
       )}
-      <h1 className={cl.name}>Memory Game</h1>
+      <h1 className={cl.name}>Memory game</h1>
       <Buttons getCards={getCards} onShow={showRecords} />
       <p className={cl.turns_count}>Turns: {turns}</p>
       <CardField>
