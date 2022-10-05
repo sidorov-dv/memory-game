@@ -26,7 +26,7 @@
 .name {
   color: #70be5b;
   letter-spacing: 5px;
-  margin-top: 15px;
+  margin-top: 10px;
   text-align: center;
   font-size: 3rem;
   text-shadow: 5px 5px 5px rgba(112, 190, 91, 0.3);
@@ -38,5 +38,5 @@
   letter-spacing: 1px;
   text-align: center;
   font-size: 2rem;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }

@@ -4,5 +4,5 @@
   grid-auto-rows: minmax(30px, 130px);
   justify-items: center;
   align-items: center;
-  grid-gap: 15px;
+  grid-gap: 10px;
 }
